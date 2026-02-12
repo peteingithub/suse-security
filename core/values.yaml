@@ -78,7 +78,7 @@ cve:
   scanner:
     enabled: true
     replicas: 1
-# rbac: true
+rbac: true
 internal:
   autoGenerateCert: true
   autoRotateCert: true

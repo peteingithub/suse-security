@@ -1,6 +1,9 @@
 registry: registry.rancher.com
 labels:
   catalog.cattle.io/cluster-repo-name: rancher-charts
+global:
+  cattle:
+    url: https://rancher-vip.example.com
 manager:
   ingress:
     enabled: true
